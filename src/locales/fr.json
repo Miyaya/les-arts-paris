@@ -1,0 +1,79 @@
+{
+  "site": {
+    "name": "Les Arts",
+    "city": "Paris.",
+    "tagline": "Agenda culturel · Île-de-France"
+  },
+  "filters": {
+    "all": "Tout",
+    "exhibition": "Exposition",
+    "concert": "Concert",
+    "theatre": "Théâtre",
+    "interactive": "Interactif",
+    "family": "Famille",
+    "free": "Gratuit",
+    "ending-soon": "Bientôt fini",
+    "popular": "Lieux phares",
+    "permanent": "Collections",
+    "label": "Filtrer",
+    "group_type": "Type",
+    "group_attr": "Attributs"
+  },
+  "sort": {
+    "date": "Date ↓",
+    "popularity": "Popularité ↓",
+    "label": "Trier"
+  },
+  "view": {
+    "list": "Liste",
+    "map": "Carte",
+    "calendar": "Cal."
+  },
+  "search": {
+    "placeholder": "Rechercher… ⌘K"
+  },
+  "featured": {
+    "label": "À la une",
+    "cta": "Voir l'événement →"
+  },
+  "event": {
+    "free": "Gratuit",
+    "permanent": "Perm.",
+    "ending_in": "J–{{days}}",
+    "ending_today": "Auj.",
+    "no_events": "Aucun événement pour cette sélection.",
+    "tickets": "Billetterie"
+  },
+  "list": {
+    "active_events": "Événements actifs"
+  },
+  "stats": {
+    "expositions": "Expositions",
+    "concerts": "Concerts",
+    "gratuits": "Gratuits",
+    "ending_soon": "J–7",
+    "updated": "Màj"
+  },
+  "feedback": {
+    "button": "Retour",
+    "title": "Votre retour",
+    "message_placeholder": "Votre message…",
+    "name_placeholder": "Votre nom (optionnel)",
+    "submit": "Envoyer",
+    "sending": "Envoi…",
+    "success": "Merci pour votre retour !",
+    "error": "Erreur d'envoi. Veuillez réessayer."
+  },
+  "errors": {
+    "fetch_failed": "Impossible de charger les données. Données de démonstration affichées.",
+    "no_data": "Aucune donnée disponible."
+  },
+  "calendar": {
+    "title": "Calendrier culturel",
+    "no_events": "Aucun événement ce jour."
+  },
+  "map": {
+    "title": "Carte des événements",
+    "click_marker": "Cliquez sur un marqueur pour les détails"
+  }
+}

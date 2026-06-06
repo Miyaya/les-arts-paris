@@ -1,0 +1,79 @@
+{
+  "site": {
+    "name": "Les Arts",
+    "city": "Paris.",
+    "tagline": "Cultural Agenda · Île-de-France"
+  },
+  "filters": {
+    "all": "All",
+    "exhibition": "Exhibition",
+    "concert": "Concert",
+    "theatre": "Theatre",
+    "interactive": "Interactive",
+    "family": "Family",
+    "free": "Free",
+    "ending-soon": "Ending Soon",
+    "popular": "Top Venues",
+    "permanent": "Permanent",
+    "label": "Filter",
+    "group_type": "Type",
+    "group_attr": "Attributes"
+  },
+  "sort": {
+    "date": "Date ↓",
+    "popularity": "Popular ↓",
+    "label": "Sort"
+  },
+  "view": {
+    "list": "List",
+    "map": "Map",
+    "calendar": "Cal."
+  },
+  "search": {
+    "placeholder": "Search… ⌘K"
+  },
+  "featured": {
+    "label": "Featured",
+    "cta": "View event →"
+  },
+  "event": {
+    "free": "Free",
+    "permanent": "Perm.",
+    "ending_in": "D–{{days}}",
+    "ending_today": "Today",
+    "no_events": "No events for this selection.",
+    "tickets": "Tickets"
+  },
+  "list": {
+    "active_events": "Active Events"
+  },
+  "stats": {
+    "expositions": "Exhibitions",
+    "concerts": "Concerts",
+    "gratuits": "Free",
+    "ending_soon": "D–7",
+    "updated": "Upd."
+  },
+  "feedback": {
+    "button": "Feedback",
+    "title": "Send feedback",
+    "message_placeholder": "Your message…",
+    "name_placeholder": "Your name (optional)",
+    "submit": "Send",
+    "sending": "Sending…",
+    "success": "Thank you for your feedback!",
+    "error": "Failed to send. Please try again."
+  },
+  "errors": {
+    "fetch_failed": "Could not load data. Showing demo events.",
+    "no_data": "No data available."
+  },
+  "calendar": {
+    "title": "Cultural Calendar",
+    "no_events": "No events this day."
+  },
+  "map": {
+    "title": "Events Map",
+    "click_marker": "Click a marker for details"
+  }
+}

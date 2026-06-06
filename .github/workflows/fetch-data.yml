@@ -1,0 +1,45 @@
+name: Bi-daily data refresh
+
+on:
+  schedule:
+    - cron: '4 6 */2 * *'
+  workflow_dispatch:
+
+jobs:
+  fetch-and-commit:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - run: npm ci
+
+      - name: Fetch events
+        run: npx tsx scripts/fetch-events.ts
+
+      - name: Check for changes
+        id: diff
+        run: |
+          git diff --quiet public/data/ || echo "changed=true" >> $GITHUB_OUTPUT
+
+      - name: Commit and push
+        if: steps.diff.outputs.changed == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add public/data/
+          git commit -m "chore: refresh event data $(date -u +%Y-%m-%d)"
+          git push
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: events-data-${{ github.run_id }}
+          path: public/data/
+          retention-days: 14

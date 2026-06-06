@@ -1,0 +1,79 @@
+{
+  "site": {
+    "name": "Les Arts",
+    "city": "Paris.",
+    "tagline": "文化活動 · 法蘭西島"
+  },
+  "filters": {
+    "all": "全部",
+    "exhibition": "展覽",
+    "concert": "音樂會",
+    "theatre": "劇場",
+    "interactive": "互動",
+    "family": "親子",
+    "free": "免費",
+    "ending-soon": "即將結束",
+    "popular": "熱門場館",
+    "permanent": "常設展",
+    "label": "篩選",
+    "group_type": "種類",
+    "group_attr": "條件"
+  },
+  "sort": {
+    "date": "日期 ↓",
+    "popularity": "熱門度 ↓",
+    "label": "排序"
+  },
+  "view": {
+    "list": "列表",
+    "map": "地圖",
+    "calendar": "日曆"
+  },
+  "search": {
+    "placeholder": "搜索… ⌘K"
+  },
+  "featured": {
+    "label": "精選",
+    "cta": "查看活動 →"
+  },
+  "event": {
+    "free": "免費",
+    "permanent": "長期",
+    "ending_in": "剩{{days}}天",
+    "ending_today": "今日",
+    "no_events": "此篩選條件無活動。",
+    "tickets": "購票"
+  },
+  "list": {
+    "active_events": "目前活動"
+  },
+  "stats": {
+    "expositions": "展覽",
+    "concerts": "音樂會",
+    "gratuits": "免費",
+    "ending_soon": "7日內",
+    "updated": "更新"
+  },
+  "feedback": {
+    "button": "回饋",
+    "title": "提交回饋",
+    "message_placeholder": "請輸入您的意見…",
+    "name_placeholder": "您的名字（選填）",
+    "submit": "送出",
+    "sending": "傳送中…",
+    "success": "感謝您的回饋！",
+    "error": "傳送失敗，請再試一次。"
+  },
+  "errors": {
+    "fetch_failed": "無法載入資料，顯示示範活動。",
+    "no_data": "無可用資料。"
+  },
+  "calendar": {
+    "title": "文化活動日曆",
+    "no_events": "本日無活動。"
+  },
+  "map": {
+    "title": "活動地圖",
+    "click_marker": "點擊標記查看詳情"
+  }
+}
