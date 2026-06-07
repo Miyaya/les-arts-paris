@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import { Analytics } from '@vercel/analytics/react'
 import { useTranslation } from 'react-i18next'
 import { RuleTopBar } from './components/layout/RuleTopBar'
 import { Masthead } from './components/layout/Masthead'
@@ -51,6 +52,7 @@ export default function App() {
         />
       </div>
       <FeedbackButton />
+      <Analytics />
     </div>
   )
 }
